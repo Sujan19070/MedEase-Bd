@@ -1,0 +1,31 @@
+# MedEase BD — Python Dependencies
+# Install: pip install -r requirements.txt
+
+# ── Web server ──────────────────────────────────────────────
+flask>=3.0.0
+
+# ── Data processing ─────────────────────────────────────────
+pandas>=2.0.0
+beautifulsoup4>=4.12.0
+
+# ── ML Training (only needed for training, not inference) ───
+# torch>=2.0.0  # install separately with CUDA:
+# pip install torch --index-url https://download.pytorch.org/whl/cu121
+# unsloth      # install separately:
+# pip install unsloth
+# transformers>=4.40.0
+# peft>=0.10.0
+# trl>=0.8.0
+# bitsandbytes>=0.43.0
+# accelerate>=0.28.0
+# datasets>=2.18.0
+
+# ── Inference ───────────────────────────────────────────────
+# llama-cpp-python  # install separately with CUDA flag:
+# Desktop (GPU): CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python
+# Laptop (CPU):  pip install llama-cpp-python
+
+# ── GGUF export ─────────────────────────────────────────────
+safetensors>=0.4.0
+gguf>=0.6.0
+sentencepiece>=0.1.99
