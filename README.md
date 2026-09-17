@@ -5,7 +5,7 @@
 [![Model](https://img.shields.io/badge/Model-Gemma%203%204B-4285F4?style=flat-square)](/)
 [![Offline](https://img.shields.io/badge/Runs-100%25%20Offline-10B981?style=flat-square)](/)
 [![License](https://img.shields.io/badge/License-MIT-64748B?style=flat-square)](/)
-[![Full Model](https://drive.google.com/file/d/1m5Dv9BBgSY55jL-EzrOzVnfyWCw9lox6/view?usp=sharing)](/)
+[![Full Model](https://img.shields.io/badge/Full%20Model-Download-EA4335?style=flat-square&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1m5Dv9BBgSY55jL-EzrOzVnfyWCw9lox6/view?usp=sharing)
 
 > Offline bilingual medicine assistant for Bangladesh — fine-tuned Gemma 3 4B on 21,714 medicines. Supports English, বাংলা & Banglish. No API. No internet required.
 
